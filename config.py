@@ -1,0 +1,21 @@
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+QDRANT_ENDPOINT = os.getenv("QDRANT_ENDPOINT")
+QDRANT_API_KEY = os.getenv("QDRANT_API_KEY")
+QDRANT_COLLECTION_NAME = os.getenv("QDRANT_COLLECTION_NAME")
+
+VECTOR_SIZE = 768
+EMBEDDING_MODEL = os.getenv("EMBEDDING_MODEL")
+SUMOPOD_API_KEY = os.getenv("SUMOPOD_API_KEY")
+SUMOPOD_BASE_URL = os.getenv("SUMOPOD_BASE_URL")
+SUMOPOD_LLM_MODEL=os.getenv("SUMOPOD_LLM_MODEL")
+
+GOOGLE_GENAI_API_KEY = os.getenv("GOOGLE_GENAI_API_KEY")
+GOOGLE_GEMINI_MODEL = os.getenv("GOOGLE_GEMINI_MODEL")
+
+HF_API_KEY = os.getenv("HF_API_KEY")
+HF_LLM_MODEL_ID = os.getenv("HF_LLM_MODEL_ID")
+HF_BASE_URL = os.getenv("HF_BASE_URL")
