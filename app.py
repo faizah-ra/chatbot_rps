@@ -53,8 +53,7 @@ st.markdown("""
 <h1>🎓 Chatbot RPS</h1>
 
 <p style="font-size:18px;">
-Sistem Tanya Jawab Dokumen Rencana Pembelajaran Semester (RPS)
-menggunakan Retrieval-Augmented Generation (RAG)
+Program Studi Informatika Universitas Gunadarma
 </p>
 
 </div>
@@ -77,28 +76,11 @@ with st.sidebar:
     st.subheader("📚 Tentang")
 
     st.write("""
-Chatbot ini membantu menjawab pertanyaan mengenai dokumen RPS
-menggunakan metode Retrieval-Augmented Generation (RAG).
+Chatbot ini membantu menjawab pertanyaan mengenai dokumen 
+Rencana Pembelajaran Semester (RPS) Program Studi Informatika 
+Universitas Gunadarma.
 """)
-
-    st.markdown("---")
-
-    st.subheader("🤖 Teknologi")
-
-    st.success("Gemini 2.0 Flash")
-
-    st.caption("Fallback")
-
-    st.write("""
-• Hugging Face
-
-• Sumopod
-
-• Qdrant
-
-• OpenAI Embedding
-""")
-
+    
     st.markdown("---")
 
     st.subheader("📄 Dataset")
@@ -121,7 +103,7 @@ menggunakan metode Retrieval-Augmented Generation (RAG).
 
     st.markdown("---")
 
-    st.caption("© 2026")
+    st.caption("© 2026 Faizah Rizki Auliawati")
 
 # ======================================================
 # SESSION STATE
@@ -194,5 +176,5 @@ if prompt:
 st.divider()
 
 st.caption(
-    "🎓 Chatbot RPS | Streamlit • Qdrant • Gemini • Hugging Face • Sumopod"
+    "Jawaban diberikan hanya berdasarkan informasi yang terdapat pada dokumen RPS."
 )
